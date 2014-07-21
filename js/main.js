@@ -146,7 +146,7 @@ var app = angular
 											console.log($routeParams.page)
 											base = window.base ? window.base
 													: 'http://everaldoreis.github.io/iSM---Stock-Manager/';
-											$routeParams.page = $routeParams.page == undefined ? ''
+											$routeParams.page = $routeParams.page == undefined ? 'index'
 													: $routeParams.page
 															.replace(
 																	'iSM---Stock-Manager/',
