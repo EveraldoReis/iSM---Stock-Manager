@@ -9,114 +9,114 @@
 								class="icon-bar"></span> <span class="icon-bar"></span> <span
 								class="icon-bar"></span>
 						</button>
-						<a class="navbar-brand" href="/#!/">Linux Stock</a>
+						<a class="navbar-brand" href="#!/">Linux Stock</a>
 					</div>
 
 					<!-- Collect the nav links, forms, and other content for toggling -->
 					<div class="collapse navbar-collapse"
 						id="bs-example-navbar-collapse-1">
 						<ul class="nav navbar-nav">
-							<li class="dropdown"><a href="/#!/" class="dropdown-toggle"
+							<li class="dropdown"><a href="#!/" class="dropdown-toggle"
 								data-toggle="dropdown">Home <b class="caret"></b></a>
 								<ul class="dropdown-menu">
-									<li><a href="/#!/">Principal</a></li>
-									<li><a href="/#!/aparencia">Aparência</a></li>
-									<li><a href="/#!/agenda">Agenda</a></li>
-									<li><a href="/#!/dados-empresa">Dados Empresa</a></li>
-									<li><a href="/#!/dados">Dados</a></li>
-									<li><a href="/#!/sair">Sair</a></li>
+									<li><a href="#!/">Principal</a></li>
+									<li><a href="#!/aparencia">Aparência</a></li>
+									<li><a href="#!/agenda">Agenda</a></li>
+									<li><a href="#!/dados-empresa">Dados Empresa</a></li>
+									<li><a href="#!/dados">Dados</a></li>
+									<li><a href="#!/sair">Sair</a></li>
 								</ul></li>
-							<li class="dropdown"><a href="/#!/cadastro" class="dropdown-toggle"
+							<li class="dropdown"><a href="#!/cadastro" class="dropdown-toggle"
 								data-toggle="dropdown">Cadastro <b class="caret"></b></a>
 								<ul class="dropdown-menu">
-									<li><a href="/#!/cadastro/pessoa-juridica">Cliente Pessoa Jurídica</a></li>
-									<li><a href="/#!/cadastro/pessoa-fisica">Cliente Pessoa Física</a></li>
-									<li><a href="/#!/cadastro/fornecedor-pessoa-juridica">Fornecedor
+									<li><a href="#!/cadastro/pessoa-juridica">Cliente Pessoa Jurídica</a></li>
+									<li><a href="#!/cadastro/pessoa-fisica">Cliente Pessoa Física</a></li>
+									<li><a href="#!/cadastro/fornecedor-pessoa-juridica">Fornecedor
 											Pessoa Jurídica</a></li>
-									<li><a href="/#!/cadastro/tipos-de-cliente">Tipos de Cliente</a></li>
-									<li><a href="/#!/cadastro/segmentos">Segmentos Clientes</a></li>
-									<li><a href="/#!/cadastro/rota-de-clientes">Rota de Clientes</a></li>
-									<li><a href="/#!/cadastro/regiao">Região de Clientes</a></li>
-									<li><a href="/#!/cadastro/cidades">Cidades</a></li>
-									<li><a href="/#!/cadastro/caixa">Caixa</a></li>
-									<li><a href="/#!/cadastro/bancos">Bancos</a></li>
-									<li><a href="/#!/cadastro/tipos-documentos">Tipos Documentos</a></li>
-									<li class="dropdown-submenu"><a href="/#!/cadastro/produtos">Produtos</a>
+									<li><a href="#!/cadastro/tipos-de-cliente">Tipos de Cliente</a></li>
+									<li><a href="#!/cadastro/segmentos">Segmentos Clientes</a></li>
+									<li><a href="#!/cadastro/rota-de-clientes">Rota de Clientes</a></li>
+									<li><a href="#!/cadastro/regiao">Região de Clientes</a></li>
+									<li><a href="#!/cadastro/cidades">Cidades</a></li>
+									<li><a href="#!/cadastro/caixa">Caixa</a></li>
+									<li><a href="#!/cadastro/bancos">Bancos</a></li>
+									<li><a href="#!/cadastro/tipos-documentos">Tipos Documentos</a></li>
+									<li class="dropdown-submenu"><a href="#!/cadastro/produtos">Produtos</a>
 										<ul class="dropdown-menu">
-											<li><a href="/#!/cadastro/produtos/tipo-produto">Tipo Produto</a></li>
-											<li><a href="/#!/cadastro/produtos">Produtos</a></li>
+											<li><a href="#!/cadastro/produtos/tipo-produto">Tipo Produto</a></li>
+											<li><a href="#!/cadastro/produtos">Produtos</a></li>
 										</ul></li>
-									<li><a href="/#!/cadastro/plano-de-contas">Planos de Contas</a></li>
-									<li><a href="/#!/cadastro/vendedor">Vendedor</a></li>
-									<li><a href="/#!/cadastro/usuario">Usuário</a></li>
-									<li><a href="/#!/cadastro/plano-de-pagamento">Plano de Pagamento</a></li>
+									<li><a href="#!/cadastro/plano-de-contas">Planos de Contas</a></li>
+									<li><a href="#!/cadastro/vendedor">Vendedor</a></li>
+									<li><a href="#!/cadastro/usuario">Usuário</a></li>
+									<li><a href="#!/cadastro/plano-de-pagamento">Plano de Pagamento</a></li>
 								</ul></li>
-							<li class="dropdown"><a href="/#!/estoque" class="dropdown-toggle"
+							<li class="dropdown"><a href="#!/estoque" class="dropdown-toggle"
 								data-toggle="dropdown">Estoque <b class="caret"></b></a>
 								<ul class="dropdown-menu">
-									<li><a href="/#!/estoque/entrada">Entrada</a></li>
-									<li><a href="/#!/estoque/saida">Saída</a></li>
+									<li><a href="#!/estoque/entrada">Entrada</a></li>
+									<li><a href="#!/estoque/saida">Saída</a></li>
 								</ul></li>
-							<li class="dropdown"><a href="/#!/financeiro"
+							<li class="dropdown"><a href="#!/financeiro"
 								class="dropdown-toggle" data-toggle="dropdown">Financeiro <b
 									class="caret"></b></a>
 								<ul class="dropdown-menu">
-									<li><a href="/#!/financeiro/contas-a-pagar">Contas a Pagas</a></li>
-									<li><a href="/#!/financeiro/contas-a-receber">Contas a Receber</a></li>
-									<li><a href="/#!/financeiro/boletos/sicoob">Boletos - Sicoob</a></li>
+									<li><a href="#!/financeiro/contas-a-pagar">Contas a Pagas</a></li>
+									<li><a href="#!/financeiro/contas-a-receber">Contas a Receber</a></li>
+									<li><a href="#!/financeiro/boletos/sicoob">Boletos - Sicoob</a></li>
 								</ul></li>
-							<li class="dropdown"><a href="/#!/operacoes" class="dropdown-toggle"
+							<li class="dropdown"><a href="#!/operacoes" class="dropdown-toggle"
 								data-toggle="dropdown">Operações <b class="caret"></b></a>
 								<ul class="dropdown-menu">
-									<li><a href="/#!/operacoes/ordem-de-orcamento">Ordem de Orçamento</a></li>
-									<li><a href="/#!/operacoes/pedido-de-venda">Pedido de Venda</a></li>
-									<li><a href="/#!/operacoes/locacao-caixas">Locação Caixas</a></li>
-									<li><a href="/#!/operacoes/caixa-interno">Caixa Interno</a></li>
+									<li><a href="#!/operacoes/ordem-de-orcamento">Ordem de Orçamento</a></li>
+									<li><a href="#!/operacoes/pedido-de-venda">Pedido de Venda</a></li>
+									<li><a href="#!/operacoes/locacao-caixas">Locação Caixas</a></li>
+									<li><a href="#!/operacoes/caixa-interno">Caixa Interno</a></li>
 								</ul></li>
-							<li class="dropdown"><a href="/#!/impressoes"
+							<li class="dropdown"><a href="#!/impressoes"
 								class="dropdown-toggle" data-toggle="dropdown">Impressões <b
 									class="caret"></b></a>
 								<ul class="dropdown-menu">
-									<li><a href="/#!/impressoes/cliente-pessoa-juridica">Cliente
+									<li><a href="#!/impressoes/cliente-pessoa-juridica">Cliente
 											Pessoa Jurídica</a></li>
-									<li><a href="/#!/impressoes/cliente-pessoa-fisica">Cliente Pessoa
+									<li><a href="#!/impressoes/cliente-pessoa-fisica">Cliente Pessoa
 											Física</a></li>
-									<li><a href="/#!/impressoes/fornecedor-pessoa-juridica">Fornecedor
+									<li><a href="#!/impressoes/fornecedor-pessoa-juridica">Fornecedor
 											Pessoa Jurídica</a></li>
-									<li><a href="/#!/impressoes/banco">Banco</a></li>
-									<li><a href="/#!/impressoes/rota-de-cliente">Rota de Cliente</a></li>
-									<li><a href="/#!/impressoes/tipo-produto">Tipo Produto</a></li>
-									<li><a href="/#!/impressoes/tipos-de-cliente">Tipos de Cliente</a></li>
-									<li><a href="/#!/impressoes/caixa">Caixa</a></li>
-									<li><a href="/#!/impressoes/tipo-documento">Tipo Documento</a></li>
-									<li><a href="/#!/impressoes/produtos">Produtos</a></li>
-									<li><a href="/#!/impressoes/plano-contas">Plano Contas</a></li>
-									<li><a href="/#!/impressoes/vendedores">Vendedores</a></li>
-									<li><a href="/#!/impressoes/plano-pagamentos">Plano Pagamentos</a></li>
-									<li class="dropdown-submenu"><a href="/#!/impressoes/orcamentos">Orçamentos</a>
+									<li><a href="#!/impressoes/banco">Banco</a></li>
+									<li><a href="#!/impressoes/rota-de-cliente">Rota de Cliente</a></li>
+									<li><a href="#!/impressoes/tipo-produto">Tipo Produto</a></li>
+									<li><a href="#!/impressoes/tipos-de-cliente">Tipos de Cliente</a></li>
+									<li><a href="#!/impressoes/caixa">Caixa</a></li>
+									<li><a href="#!/impressoes/tipo-documento">Tipo Documento</a></li>
+									<li><a href="#!/impressoes/produtos">Produtos</a></li>
+									<li><a href="#!/impressoes/plano-contas">Plano Contas</a></li>
+									<li><a href="#!/impressoes/vendedores">Vendedores</a></li>
+									<li><a href="#!/impressoes/plano-pagamentos">Plano Pagamentos</a></li>
+									<li class="dropdown-submenu"><a href="#!/impressoes/orcamentos">Orçamentos</a>
 										<ul class="dropdown-menu">
-											<li><a href="/#!/impressoes/orcamentos/por-vendedor">Por
+											<li><a href="#!/impressoes/orcamentos/por-vendedor">Por
 													vendedor</a></li>
-											<li><a href="/#!/impressoes/orcamentos/por-cliente">Por cliente</a></li>
-											<li><a href="/#!/impressoes/orcamentos/por-data">Por data</a></li>
-											<li><a href="/#!/impressoes/orcamentos/personalizado">Personalizado</a></li>
+											<li><a href="#!/impressoes/orcamentos/por-cliente">Por cliente</a></li>
+											<li><a href="#!/impressoes/orcamentos/por-data">Por data</a></li>
+											<li><a href="#!/impressoes/orcamentos/personalizado">Personalizado</a></li>
 										</ul></li>
-									<li class="dropdown-submenu"><a href="/#!/impressoes/vendas">Vendas</a>
+									<li class="dropdown-submenu"><a href="#!/impressoes/vendas">Vendas</a>
 										<ul class="dropdown-menu">
-											<li><a href="/#!/impressoes/vendas/por-vendedor">Por vendedor</a></li>
-											<li><a href="/#!/impressoes/vendas/por-cliente">Por cliente</a></li>
-											<li><a href="/#!/impressoes/vendas/por-data">Por data</a></li>
-											<li><a href="/#!/impressoes/vendas/personalizado">Personalizado</a></li>
-											<li><a href="/#!/impressoes/vendas/comissao">Comissão</a></li>
+											<li><a href="#!/impressoes/vendas/por-vendedor">Por vendedor</a></li>
+											<li><a href="#!/impressoes/vendas/por-cliente">Por cliente</a></li>
+											<li><a href="#!/impressoes/vendas/por-data">Por data</a></li>
+											<li><a href="#!/impressoes/vendas/personalizado">Personalizado</a></li>
+											<li><a href="#!/impressoes/vendas/comissao">Comissão</a></li>
 										</ul></li>
 								</ul></li>
-							<li class="dropdown"><a href="/#!/utilidades"
+							<li class="dropdown"><a href="#!/utilidades"
 								class="dropdown-toggle" data-toggle="dropdown">Utilidades <b
 									class="caret"></b></a>
 								<ul class="dropdown-menu">
-									<li><a href="/#!/utilidades/calculadora">Calculadora</a></li>
-									<li><a href="/#!/utilidades/tratar-retorno">Tratar Retorno</a></li>
-									<li><a href="/#!/utilidades/backup">Backup</a></li>
+									<li><a href="#!/utilidades/calculadora">Calculadora</a></li>
+									<li><a href="#!/utilidades/tratar-retorno">Tratar Retorno</a></li>
+									<li><a href="#!/utilidades/backup">Backup</a></li>
 								</ul></li>
 						</ul>
 						<ul class="nav navbar-nav navbar-right">
@@ -129,41 +129,41 @@
 							</form>
 						</ul>
 						<ul class="nav navbar-nav navbar-right">
-							<li class="dropdown"><a href="/#!/#" class="dropdown-toggle"
+							<li class="dropdown"><a href="#!/#" class="dropdown-toggle"
 								data-toggle="dropdown"><span class="glyphicon glyphicon-comment"></span>Chats
 									<span class="label label-primary">42</span> </a>
 								<ul class="dropdown-menu">
-									<li><a href="/#!/#"><span class="label label-warning">7:00 AM</span>Hi
+									<li><a href="#!/#"><span class="label label-warning">7:00 AM</span>Hi
 											:)</a></li>
-									<li><a href="/#!/#"><span class="label label-warning">8:00 AM</span>How
+									<li><a href="#!/#"><span class="label label-warning">8:00 AM</span>How
 											are you?</a></li>
-									<li><a href="/#!/#"><span class="label label-warning">9:00 AM</span>What
+									<li><a href="#!/#"><span class="label label-warning">9:00 AM</span>What
 											are you doing?</a></li>
 									<li class="divider"></li>
-									<li><a href="/#!/#" class="text-center">View All</a></li>
+									<li><a href="#!/#" class="text-center">View All</a></li>
 								</ul></li>
-							<li class="dropdown"><a href="/#!/#" class="dropdown-toggle"
+							<li class="dropdown"><a href="#!/#" class="dropdown-toggle"
 								data-toggle="dropdown"><span
 									class="glyphicon glyphicon-envelope"></span>Inbox <span
 									class="label label-info">32</span> </a>
 								<ul class="dropdown-menu">
-									<li><a href="/#!/#"><span class="label label-warning">4:00 AM</span>Favourites
+									<li><a href="#!/#"><span class="label label-warning">4:00 AM</span>Favourites
 											Snippet</a></li>
-									<li><a href="/#!/#"><span class="label label-warning">4:30 AM</span>Email
+									<li><a href="#!/#"><span class="label label-warning">4:30 AM</span>Email
 											marketing</a></li>
-									<li><a href="/#!/#"><span class="label label-warning">5:00 AM</span>Subscriber
+									<li><a href="#!/#"><span class="label label-warning">5:00 AM</span>Subscriber
 											focused email design</a></li>
 									<li class="divider"></li>
-									<li><a href="/#!/#" class="text-center">View All</a></li>
+									<li><a href="#!/#" class="text-center">View All</a></li>
 								</ul></li>
-							<li class="dropdown"><a href="/#!/#" class="dropdown-toggle"
+							<li class="dropdown"><a href="#!/#" class="dropdown-toggle"
 								data-toggle="dropdown"><span class="glyphicon glyphicon-user"></span>Admin
 									<b class="caret"></b></a>
 								<ul class="dropdown-menu">
-									<li><a href="/#!/#"><span class="glyphicon glyphicon-user"></span>Profile</a></li>
-									<li><a href="/#!/#"><span class="glyphicon glyphicon-cog"></span>Settings</a></li>
+									<li><a href="#!/#"><span class="glyphicon glyphicon-user"></span>Profile</a></li>
+									<li><a href="#!/#"><span class="glyphicon glyphicon-cog"></span>Settings</a></li>
 									<li class="divider"></li>
-									<li><a href="/#!/#"><span class="glyphicon glyphicon-off"></span>Logout</a></li>
+									<li><a href="#!/#"><span class="glyphicon glyphicon-off"></span>Logout</a></li>
 								</ul></li>
 						</ul>
 					</div>
