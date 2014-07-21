@@ -1,0 +1,16 @@
+Start: <input ng-model="page"> End: <input ng-model="page_total">
+<div ng-repeat="post in items['posts'] | slice:page:page_total" class="row">
+	<div ng-class-odd="'odd'" ng-class-even="'even'" id="post{{post.id}}">
+	    <h1 data-ng-bind-html="post.title"></h1>
+	    <p data-ng-bind-html="post.body"></p>
+	    <div>
+			<span class="badge">Posted {{post.cdate}}</span>
+			<div class="pull-right">
+				<span class="label"><i class="fa fa-facebook"></i><a ng-href="https://www.facebook.com/sharer/sharer.php?u={{post.id}}#{{post.id}}" title="{{post.title}}">Share</a></span> 
+				<span class="label label-default">{{post.author}}</span> 
+				<span class="label label-success">{{post.category}}</span>
+		   	</div>
+	    </div>
+    </div>
+	<hr>
+</div>

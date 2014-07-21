@@ -1,0 +1,49 @@
+<div class="container">
+	<div class="col-sm-3"></div>
+	<div class="col-sm-6 container text-center">
+	    <form action="/auth/login" class="form-signin">
+	    <div class="row">
+	    	<h2 class="form-signin-heading">Sign in</h2>
+			<small class="text-muted">Connect [your service] with your favorite social network</small>
+		 </div>
+	<div class="row">			
+			<p>
+			<a class="btn btn-primary social-login-btn social-facebook" href="/auth/facebook"><i class="fa fa-facebook"></i></a>
+			<a class="btn btn-primary social-login-btn social-twitter" href="/auth/twitter"><i class="fa fa-twitter"></i></a>
+			</p>
+			<p>
+			<a class="btn btn-primary social-login-btn social-linkedin" href="/auth/linkedin"><i class="fa fa-linkedin"></i></a>
+			<a class="btn btn-primary social-login-btn social-google" href="/auth/google"><i class="fa fa-google-plus"></i></a>
+			</p>
+			<div class="btn-group social-login-more">
+			  <button type="button" class="btn btn-default dropdown-toggle btn-block" data-toggle="dropdown">
+			    More...
+			  </button>
+			  <ul class="dropdown-menu text-left " role="menu">
+			    <li><a href="/auth/tumblr"><i class="fa fa-tumblr"></i>   Tumblr</a></li>
+			    <li><a href="/auth/github"><i class="fa fa-github-alt"></i>   Github</a></li>
+			    <li><a href="/auth/dropbox"><i class="fa fa-dropbox"></i>   Dropbox</a></li>
+			    <li><a href="/auth/bitbucket"><i class="fa fa-bitbucket"></i>   Bitbucket</a></li>
+			    <li><a href="/auth/windows"><i class="fa fa-windows"></i>   Windows Live</a></li>
+			    <li><a href="/auth/weibo"><i class="fa fa-weibo"></i>   Weibo</a></li>
+			    <li><a href="/auth/foursquare"><i class="fa fa-foursquare"></i>   Foursquare</a></li>
+			    <li><a href="/auth/stackexchange"><i class="fa fa-stack-exchange"></i>   Stack Exchange</a></li>
+			    <li><a href="/auth/trello"><i class="fa fa-trello"></i>   Trello</a></li>
+			    <li><a href="/auth/wordpress"><i class="fa fa-wordpress"></i>   Wordpress</a></li>
+			  </ul>
+			</div>
+			 </div>
+	<div class="row">
+		    <small class="text-muted">Or sign in with [your service]</small>
+		     <div class="row">
+	        <input class="form-control" placeholder="Email Address" type="text">
+	        <input class="form-control" placeholder="Password" type="password">
+	        <button class="btn btn-lg btn-primary btn-block btn-center" type="submit">Sign in</button>
+	         </div>
+	<div class="row">
+	        <small class="text-muted">Dont have a [your service] or social network account? <button class="btn btn-sm btn-default"> Sign Up </button> </small>
+	    </div>
+	</form>
+    </div>
+	<div class="col-sm-3"></div>
+</div>

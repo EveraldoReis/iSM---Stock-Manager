@@ -1,0 +1,2 @@
+<div ng-init="page = 0; page_total = 2;range_value = 10;" ng-controller="PostsController" ng-include="'templates/post'" class="row"></div>
+<ng-include="'templates/pagination'"></ng-include>  
