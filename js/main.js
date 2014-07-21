@@ -5,7 +5,7 @@ var app = angular
 		.controller(
 				'MainController',
 				function($scope, $http, $sce, $location, $routeParams, $route) {
-				    $scope.baseHref = 'http://everaldoreis.github.io/iSM---Stock-Manager/';
+					$scope.baseHref = 'http://everaldoreis.github.io/iSM---Stock-Manager/';
 					$scope.items = [];
 					$scope.keydown = function(keycode) {
 						/* validate $scope.mobileNumber here */
@@ -141,22 +141,32 @@ var app = angular
 					$routeProvider
 							.when(
 									'/:page*?',
-									{   
+									{
 										templateUrl : function($routeParams) {
-										    console.log($routeParams.page)
-										    base = window.base ? window.base : 'http://everaldoreis.github.io/iSM---Stock-Manager/';
+											console.log($routeParams.page)
+											base = window.base ? window.base
+													: 'http://everaldoreis.github.io/iSM---Stock-Manager/';
 											$routeParams.page = $routeParams.page == undefined ? ''
-													: $routeParams.page.replace('iSM---Stock-Manager/', '').replace('#!', '');
-											return LS.logado ? base+'pages/'
+													: $routeParams.page
+															.replace(
+																	'iSM---Stock-Manager/',
+																	'')
+															.replace('#!', '');
+											return LS.logado ? base + 'pages/'
 													+ $routeParams.page
-													: base+'pages/auth?login';
+													+ '.html' : base
+													+ 'pages/auth.html?login';
 										},
 										controller : 'MainController'
-									}).otherwise({
-								redirectTo : function(){ 
-								    return (window.base ? window.base : 'http://everaldoreis.github.io/iSM---Stock-Manager/')+'404';
-								}
-							});
+									})
+							.otherwise(
+									{
+										redirectTo : function() {
+											return (window.base ? window.base
+													: 'http://everaldoreis.github.io/iSM---Stock-Manager/')
+													+ '404';
+										}
+									});
 					// routing DOESN'T work without html5Mode
 					$locationProvider.html5Mode(false).hashPrefix('!');
 					// Intercept http calls.
