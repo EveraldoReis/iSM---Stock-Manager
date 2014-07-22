@@ -45,16 +45,16 @@ window.LS = window.LS||<?php echo json_encode($_SESSION); ?>;
                 <![endif]-->
 
 			<!-- Add your site or application content here -->
-			<div class="nav navbar"
-				style="border: none; position: relative; height: 50px; overflow: hidden; display: table;">
-				<div class="navbar-fixed-top" ng-include="'templates/navbar_top'"></div>
-			</div>
 			<div class="col-sm-2">
 				<div style="position: fixed; padding: 0 40px 0 0" class="col-sm-2">
 					<div ng-include="'templates/sidebar'"></div>
 				</div>
 			</div>
 			<div class="col-sm-10 panel" id="content">
+			<div class="nav navbar"
+				style="border: none; position: relative; height: 50px; overflow: hidden; display: table;">
+				<div class="navbar-fixed-top" ng-include="'templates/navbar_top'"></div>
+			</div>
 				<div class="panel-body" ng-view></div>
 
 			</div>
